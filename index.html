@@ -9,25 +9,6 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
-<!--Campaign tracking code START-->
-<body class="is-boxed">
-	<script type='text/javascript'>
-		piAId = '766182';
-		piCId = '';
-		piHostname = 'www3.lenoxsoft.com';
-		
-		(function() {
-			function async_load(){
-				var s = document.createElement('script'); s.type = 'text/javascript';
-				s.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + piHostname + '/pd.js';
-				var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
-			}
-			if(window.attachEvent) { window.attachEvent('onload', async_load); }
-			else { window.addEventListener('load', async_load, false); }
-		})();
-		</script>
-	<!--Campaign tracking code END-->
-
     <div class="body-wrap boxed-container">
         <header class="site-header">
             <div class="container">
@@ -479,5 +460,23 @@
     </div>
 
     <script src="dist/js/main.min.js"></script>
+	<!--Campaign tracking code START-->
+	<body class="is-boxed">
+		<script type='text/javascript'>
+			piAId = '766182';
+			piCId = '';
+			piHostname = 'www3.lenoxsoft.com';
+			
+			(function() {
+				function async_load(){
+					var s = document.createElement('script'); s.type = 'text/javascript';
+					s.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + piHostname + '/pd.js';
+					var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+				}
+				if(window.attachEvent) { window.attachEvent('onload', async_load); }
+				else { window.addEventListener('load', async_load, false); }
+			})();
+			</script>
+		<!--Campaign tracking code END-->
 </body>
 </html>
